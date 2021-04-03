@@ -1,0 +1,31 @@
+.adress {
+  background-color: $basic_white;
+}
+
+.adress__wrapper {
+  min-width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.adress__desc {
+  display: flex;
+  padding: 19px 0;
+}
+
+.adress__subtitle {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $basic_black;
+  margin-right: 2px;
+}
+
+.adress__description {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $special_dark-grey;
+}
