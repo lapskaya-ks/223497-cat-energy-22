@@ -1,0 +1,37 @@
+.selection {
+  background-color: $basic_white;
+  padding: 27px 35px 68px 36px;
+  background-image: url("/img/index-background-desktop-green.png");
+  margin-bottom: 32px;
+}
+
+.selection__wrapper {
+  min-width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.selection__slogan {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: $basic_white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.selection__intro {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: $basic_white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 29px;
+}

@@ -1,0 +1,29 @@
+.adress {
+  background-color: $basic_white;
+}
+
+.adress__wrapper {
+  min-width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.adress__desc {
+  display: flex;
+  padding: 19px 0;
+}
+
+.adress__subtitle {
+  font-size: 16px;
+  color: $basic_black;
+  padding: 0;
+  margin: 0;
+  margin-right: 2px;
+}
+
+.adress__description {
+  line-height: 20px;
+  color: $special_dark-grey;
+  padding: 0;
+  margin: 0;
+}
