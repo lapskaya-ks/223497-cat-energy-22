@@ -9,6 +9,12 @@
 }
 
 .how-works__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.how-works__list {
   margin-bottom: 46px;
 }
 
@@ -28,6 +34,8 @@
   line-height: 18px;
   font-weight: 400;
   color: $special_dark-grey;
+  padding: 0;
+  margin: 0;
 }
 
 .how-works__description::before {

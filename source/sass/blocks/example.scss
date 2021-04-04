@@ -25,6 +25,8 @@
   line-height: 18px;
   font-weight: 400;
   color: $special_dark-grey;
+  padding: 0;
+  margin: 0;
   margin-bottom: 25px;
   margin-top: 0;
 }
@@ -33,45 +35,51 @@
   margin-bottom: 42px;
 }
 
-.example__stats-list {
+.example__list {
   display: flex;
   margin-bottom: 11px;
 }
 
-.example__stats-item {
+.example__item {
   width: 124px;
   border: 1px solid #cfcfcf;
   padding: 14px 0 18px 0;
 }
 
-.example__stats-value {
+.example__value {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
   text-transform: uppercase;
   color: $basic_black;
+  padding: 0;
+  margin: 0;
   margin-top: 0;
   margin-bottom: 9px;
   text-align: center;
 }
 
-.example__stats-subtitle {
+.example__subtitle {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 12px;
   line-height: 12px;
   font-weight: 400;
   color: $special_dark-grey;
   width: 110px;
+  padding: 0;
+  margin: 0;
   text-align: center;
   margin: 0 auto;
 }
 
-.example__stats-item--weight {
+.example__item--weight {
   margin-right: 31px;
 }
 
 .example__costs {
+  padding: 0;
+  margin: 0;
   margin: 0 auto;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
