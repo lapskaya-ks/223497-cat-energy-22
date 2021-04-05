@@ -1,0 +1,29 @@
+.main-form {
+  background-color: $basic_white;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $special_dark-grey;
+  padding: 27px 0 32px 0;
+}
+
+.main-form__wrapper {
+  min-width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main-form__title {
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic_black;
+  font-weight: 400;
+  margin: 0 0 37px 0;
+}
+
+.main-form__description {
+  color: $basic_black;
+  margin: 0 0 39px 0;
+  text-transform: uppercase;
+}
