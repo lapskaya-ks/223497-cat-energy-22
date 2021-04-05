@@ -17,7 +17,6 @@
   border: 0 none;
 }
 
-
 .form__input {
   border: 1px solid #e7e7e7;
   padding: 13px 0 14px 15px;
@@ -31,10 +30,6 @@
   font-weight: 400;
   color: $basic_black;
   margin-bottom: 35px;
-}
-
-.form__label {
-  text-transform: uppercase;
 }
 
 .form__name {
@@ -52,6 +47,7 @@
   font-weight: 400;
   color: $special_dark-grey-2;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .form__textarea {
@@ -60,20 +56,18 @@
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
-  padding: 0;
   margin-bottom: 23px;
   height: 151px;
   outline: none;
   -webkit-appearance: none;
-	-moz-appearance: none;
-	border: 1px solid #e7e7e7;
+  -moz-appearance: none;
+  border: 1px solid #e7e7e7;
   resize: none;
 }
 
 .form__textarea::placeholder {
-  padding: 9px 12px 0px 15px;
+  padding: 9px 12px 0 15px;
 }
-
 
 .form__button {
   margin-bottom: 21px;
@@ -157,7 +151,6 @@
 .form__input--radio:hover + .form__input--radio-box {
   border: 1px solid #bababa;
   border-radius: 50%;
-
 }
 
 .form__input--radio:checked:hover + .form__input--radio-box {
@@ -167,7 +160,7 @@
 }
 
 .form__input--radio:disabled + .form__input--radio-box {
-  border: 1px solid rgba(186, 186, 186, 0.3)
+  border: 1px solid rgba(186, 186, 186, 0.3);
 }
 
 .form__input--radio:checked:disabled + .form__input--radio-box {
@@ -219,7 +212,7 @@
 }
 
 .form__input--checkbox:disabled + .form__input--check-box {
-  border: 1px solid rgba(186, 186, 186, 0.3)
+  border: 1px solid rgba(186, 186, 186, 0.3);
 }
 
 .form__input--checkbox:checked:disabled + .form__input--check-box {
