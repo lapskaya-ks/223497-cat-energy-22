@@ -1,0 +1,221 @@
+.form {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $special_dark-grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.form__fieldset--visually-hidden {
+  border: 0 none;
+}
+
+.form__input {
+  border: 1px solid #e7e7e7;
+  padding: 13px 0 14px 15px;
+  text-transform: uppercase;
+}
+
+.form__legend {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  color: $basic_black;
+  margin-bottom: 35px;
+}
+
+.form__name {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 27px;
+  margin-bottom: 22px;
+}
+
+.form__label {
+  margin-bottom: 13px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $special_dark-grey-2;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.form__textarea {
+  width: 100%;
+  padding-top: 9px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 23px;
+  height: 151px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #e7e7e7;
+  resize: none;
+}
+
+.form__textarea::placeholder {
+  padding: 9px 12px 0 15px;
+}
+
+.form__button {
+  margin-bottom: 21px;
+}
+
+.form__small {
+  font-size: 16px;
+  line-height: 18px;
+  color: $basic_black;
+  text-align: center;
+}
+
+.form__label--info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__label--info:last-child {
+  margin-bottom: 0;
+}
+
+.form__label--contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__label--contact:last-child {
+  margin-bottom: 0;
+}
+
+.form__contacts {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 27px;
+  margin-bottom: 22px;
+}
+
+.form__radiobox {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 19px;
+  margin-bottom: 26px;
+}
+
+.form__radio {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 46px;
+}
+
+.form__radio:last-child {
+  margin-bottom: 0;
+}
+
+.form__input--radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input--radio-box {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  margin-left: -46px;
+}
+
+.form__input--radio:checked + .form__input--radio-box {
+  background-image: url("../img/radio_mobile.svg");
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form__input--radio:hover + .form__input--radio-box {
+  border: 1px solid #bababa;
+  border-radius: 50%;
+}
+
+.form__input--radio:checked:hover + .form__input--radio-box {
+  border: 1px solid #bababa;
+  border-radius: 50%;
+  background-image: url("../img/radio_mobile.svg");
+}
+
+.form__input--radio:disabled + .form__input--radio-box {
+  border: 1px solid rgba(186, 186, 186, 0.3);
+}
+
+.form__input--radio:checked:disabled + .form__input--radio-box {
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  background-image: url("../img/radio-disabled_mobile.svg");
+}
+
+.form__check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-left: 46px;
+}
+
+.form__check:last-child {
+  margin-bottom: 34px;
+}
+
+.form__input--checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input--check-box {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #cdcdcd;
+  margin-left: -46px;
+}
+
+.form__input--checkbox:checked + .form__input--check-box {
+  background-image: url("../img/check-mark-mobile.svg");
+  border: 1px solid #cdcdcd;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form__input--checkbox:hover + .form__input--check-box {
+  border: 1px solid #bababa;
+}
+
+.form__input--checkbox:checked:hover + .form__input--check-box {
+  border: 1px solid #bababa;
+  background-image: url("../img/check-mark-hover-mobile.svg");
+}
+
+.form__input--checkbox:disabled + .form__input--check-box {
+  border: 1px solid rgba(186, 186, 186, 0.3);
+}
+
+.form__input--checkbox:checked:disabled + .form__input--check-box {
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  background-image: url("../img/check-mark-disabled-mobile.svg");
+}

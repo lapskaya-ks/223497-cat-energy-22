@@ -2,6 +2,7 @@
   background-color: $basic_white;
 }
 
+
 .adress__wrapper {
   min-width: 280px;
   padding: 0 20px;
@@ -26,4 +27,8 @@
   color: $special_dark-grey;
   padding: 0;
   margin: 0;
+}
+
+.adress__form {
+  background-color: $basic_grey;
 }
