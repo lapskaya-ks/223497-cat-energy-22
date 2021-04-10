@@ -1,12 +1,15 @@
 .social__list {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 23px 0;
+  margin: 0 auto;
   display: flex;
-  border-bottom: 1px solid #d9d9d9;
-  padding-bottom: 21px;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 21px;
+  border-top: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 
 .social__item {

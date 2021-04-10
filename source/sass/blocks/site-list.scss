@@ -13,6 +13,15 @@
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    margin-right: 32px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
 
 .site-list__item:last-child {

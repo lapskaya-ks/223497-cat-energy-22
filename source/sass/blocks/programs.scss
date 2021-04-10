@@ -6,12 +6,45 @@
   min-width: 280px;
   padding: 0 20px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    min-width: 768px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 1220px;
+    margin: 0 auto 71px auto;
+    padding: 0 110px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .programs__content {
   background-color: $basic_grey;
   margin-bottom: 20px;
   padding: 30px 20px 22px 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 77px 61px 53px 52px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 77px 51px 55px 52px;
+    width: 570px;
+    margin-bottom: 0;
+
+    &:first-child {
+      margin-right: 80px;
+    }
+  }
 }
 
 .programs__title {
@@ -25,32 +58,16 @@
   margin-top: 0;
   display: flex;
   align-items: center;
-}
 
-.programs__title::before {
-  content: "";
-  background-color: $basic_green;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 19px;
-}
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
 
-.programs__title--weight-loss::before {
-  content: "";
-  background-image: url("/img/cat-slim.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 36px 50px;
-}
-
-.programs__title--weight-gain::before {
-  content: "";
-  background-image: url("/img/cat-fat.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 67px 28px;
+  @media (min-width: $desktop-width) {
+    margin-bottom: 73px;
+  }
 }
 
 .programs__description {
@@ -61,8 +78,20 @@
   color: $special_dark-grey;
   border-bottom: 1px solid #d9d9d9;
   padding: 0;
-  margin: 0;
+  margin: 0 0 19px 0;
   padding-bottom: 23px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+    margin-bottom: 52px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 27px;
+  }
 }
 
 .programs__link {
@@ -72,6 +101,11 @@
   font-weight: 400;
   text-transform: uppercase;
   color: $basic_black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .programs__link-text {
@@ -109,5 +143,5 @@
 }
 
 .programs__foot {
-  padding-top: 19px;
+  padding: 0;
 }
