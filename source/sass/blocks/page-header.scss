@@ -1,6 +1,11 @@
 .page-header {
   background-color: $basic_white;
   padding: 11px 0 17px 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .page-header__wrapper {
@@ -11,4 +16,9 @@
 
 .page-header__logo--avatar {
   margin-right: 57px;
+}
+
+.page-header__logo {
+  height: 38px;
+  display: inline-block;
 }

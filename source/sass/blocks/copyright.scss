@@ -1,7 +1,6 @@
 .copyright {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .copyright-text {
@@ -14,8 +13,13 @@
   align-items: center;
   padding: 0;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 22px;
+  }
 }
 
 .copyright__link {
-  margin-left: 140px;
+  display: flex;
+  justify-content: space-between;
 }
